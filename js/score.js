@@ -1,4 +1,4 @@
-import { animate, scrambleText } from "https://cdn.jsdelivr.net/npm/animejs@4/+esm";
+import { animate, scrambleText } from "animejs";
 
 export function initScoreAnim() {
   var btn = document.querySelector(".primary-button");
@@ -12,3 +12,5 @@ export function initScoreAnim() {
     });
   });
 }
+
+export default initScoreAnim;
